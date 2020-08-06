@@ -13,7 +13,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {  
 margin: 0;  
 padding: 0;  
-border: 0;  
+/*border: 0;*/  
 font-size: 100%;  
 font: inherit;  
 vertical-align: baseline;  
@@ -26,6 +26,7 @@ vertical-align: baseline;
     margin: 0;
     box-sizing: border-box;
     max-width: 100%;
+    border: 1px solid gray;
 }
 
 html {
@@ -64,4 +65,14 @@ nav a {
     text-decoration: none;
     padding: .5% 3%;
     border: 1px solid black;
+}
+
+.top-info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.top-info .top-image {
+    width: 300%;
 }
