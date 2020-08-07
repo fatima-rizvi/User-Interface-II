@@ -74,6 +74,15 @@ nav a {
     border: 1px solid black;
 }
 
+@keyframes animate {
+    100%  {background-color: #d810f1;}
+}
+
+nav a:hover {
+    animation-name: animate;
+    animation-duration: .75s;
+}
+
 .headWrapper{
     display:flex;
     justify-content:space-around;
