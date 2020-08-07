@@ -69,10 +69,22 @@ nav a {
 
 .top-info {
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    /*justify-content: space-around;*/
+    /*width: 100%;*/
+    background-color: palegreen;
 }
 
-.top-info .top-image {
-    width: 300%;
+.top-img {
+    flex-grow: 1;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    background-color: orchid;
+}
+
+.top-text {
+    flex-grow: 1;
+    width: 50%;
 }
