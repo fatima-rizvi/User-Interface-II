@@ -151,58 +151,17 @@ footer {
     text-align: center;
 }
 
-.about-me-text {
+.casual-text {
     padding: 2%;
+    width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.top-info {
-    display: flex;
-    justify-content: space-around;*
-    padding: 4% 0;
-    background-color: palegreen;
+.social-media {
+    margin: 1.5%;
 }
 
-.top-img {
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: orchid;
+.social-media nav a {
+    padding: 0;
+    border: none;
+    background-color: #657495;
 }
-
-img {
-    height: 250px;
-    object-fit: cover;
-    width: 50%;
-}
-
-.top-text {
-    width: 50%;
-    display: flex;
-}*/
