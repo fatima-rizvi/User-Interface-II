@@ -1,1 +1,176 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Kalam:wght@700&family=Recursive&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Recursive', sans-serif;
+    line-height: 2;
+    font-size: 1.5rem; 
+    margin: 0;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    /*padding: .5% 3%;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kalam', cursive;
+    line-height: 3;
+    font-size: 2.5rem; 
+}
+
+header, footer {
+    background-color: #657495;
+    color: black;
+    width: 100%;
+    padding: 3%;
+}
+
+header h1 {
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: row;
+    justify-content: flex-start;
+}
+
+nav a {
+    color: white;
+    background-color: #01c4fe;
+    text-decoration: none;
+    padding: .5% 3%;
+    border: 1px solid black;
+}
+
+@keyframes animate {
+    100%  {background-color: #d810f1;}
+}
+
+nav a:hover {
+    animation-name: animate;
+    animation-duration: .75s;
+}
+
+.headWrapper{
+    display:flex;
+    justify-content:space-around;
+    padding:4% 0;
+  }
+  
+.left{
+    width:45%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 0;
+    margin: 0;
+  }
+
+.img{
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 0;
+    margin: 0;
+  }
+
+.img img {
+    border: 4px solid #01c4fe;
+}
+
+.right{
+    width:45%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+.right .text{
+    text-align: left;
+    width:100%;
+  }
+
+.right .text h2 {
+    line-height: 1.52;
+}
+
+.right .text nav a, footer nav a{
+    padding: 1% 2%;
+}
+
+.right .text nav {
+    margin: 1% 0;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.proj{
+    width: 22%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.proj p {
+    align-items: center;
+    height: 100px;
+    margin: 10px auto;
+}
+
+footer {
+    text-align: center;
+}
+
+.casual-text {
+    padding: 2%;
+    width: 100%;
+}
+
+.social-media {
+    margin: 1.5%;
+}
+
+.social-media nav a {
+    padding: 0;
+    border: none;
+    background-color: #657495;
+}
