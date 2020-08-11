@@ -184,6 +184,16 @@ footer {
     background-color: #657495;
 }
 
+@media (min-width: 1500px) {
+    body {
+        font-size: 2rem;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 3.5rem; 
+    }
+}
+
 @media (max-width: 800px) {
     .proj{
         width: 40%;
